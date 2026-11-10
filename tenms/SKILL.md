@@ -14,7 +14,7 @@ Tenms is an audio layer for voice agents. It works in 10 ms frames on CPU and ha
 | **Turn** | VAD, `turn_prediction` (start the LLM early), `turn_end`, and interruption kinds `barge_in` / `backchannel` / `noise` / `other_speaker` |
 | **Pulse** | live `quality` events and a `CallSummary` per call (MOS, SNR, echo, ASR risk, failure cause) |
 
-Public docs: https://tenms.cloud/docs/ (one-file version: https://tenms.cloud/llms-full.txt).
+Public docs: https://www.tenms.cloud/docs/ (one-file version: https://www.tenms.cloud/llms-full.txt).
 Dashboard and keys: https://app.tenms.cloud. Edge (hosted WebSocket service): `wss://edge.tenms.cloud`.
 
 Only use the API names in this skill and its references. They were checked against the published

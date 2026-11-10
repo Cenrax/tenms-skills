@@ -1,7 +1,7 @@
 # Tenms Agent Skills
 
 An [Agent Skill](https://agentskills.io) that teaches coding agents (Claude Code, Cursor, Codex and others) to
-add [Tenms](https://tenms.cloud) to a voice agent correctly. Tenms is a CPU-only audio layer with three
+add [Tenms](https://www.tenms.cloud) to a voice agent correctly. Tenms is a CPU-only audio layer with three
 modules: Focus (noise, echo and other-speaker removal), Turn (turn-taking, barge-in) and Pulse (call quality).
 
 Ask your agent, for example:
@@ -27,7 +27,7 @@ For your user (every project):
 
 ```bash
 mkdir -p ~/.claude/skills
-curl -fsSL https://tenms.cloud/skills/tenms.zip -o /tmp/tenms-skill.zip
+curl -fsSL https://www.tenms.cloud/skills/tenms.zip -o /tmp/tenms-skill.zip
 unzip -o /tmp/tenms-skill.zip -d ~/.claude/skills/        # creates ~/.claude/skills/tenms/SKILL.md
 ```
 
@@ -35,7 +35,7 @@ For one project (commit it, so the whole team gets it):
 
 ```bash
 mkdir -p .claude/skills
-curl -fsSL https://tenms.cloud/skills/tenms.zip -o /tmp/tenms-skill.zip
+curl -fsSL https://www.tenms.cloud/skills/tenms.zip -o /tmp/tenms-skill.zip
 unzip -o /tmp/tenms-skill.zip -d .claude/skills/
 ```
 
@@ -53,10 +53,10 @@ matches.
 
 * **Agents that read Agent Skills folders.** Copy `tenms/` into the agent's skills directory.
 * **Cursor, Windsurf, Copilot and similar.** Add a project rule that points at the skill, for example
-  "When integrating Tenms, follow https://tenms.cloud/skills/tenms/SKILL.md and its references", or paste
+  "When integrating Tenms, follow https://www.tenms.cloud/skills/tenms/SKILL.md and its references", or paste
   `SKILL.md` into the rule.
-* **Any agent with web access.** https://tenms.cloud/llms.txt indexes the docs, and
-  https://tenms.cloud/llms-full.txt has all integration docs in one file.
+* **Any agent with web access.** https://www.tenms.cloud/llms.txt indexes the docs, and
+  https://www.tenms.cloud/llms-full.txt has all integration docs in one file.
 
 ## What the agent needs from you
 
